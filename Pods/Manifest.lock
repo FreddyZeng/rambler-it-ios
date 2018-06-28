@@ -167,7 +167,7 @@ SPEC CHECKSUMS:
   PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
   RamblerAppDelegateProxy: a29284f46e8711663f0d279f5023469a96b27529
   RamblerSegues: 697ae59f2fbaefac805a57fc4e61fb73ba1fd5de
-  RamblerTyphoonUtils: '08a6b5592e045a490cd4550aa9ea4a581308d482'
+  RamblerTyphoonUtils: 08a6b5592e045a490cd4550aa9ea4a581308d482
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
   Typhoon: c0950bb9f2e835eb8a7dc6983160109b6baf2dda
   UICollectionViewLeftAlignedLayout: 6d10790db3e07958d91bd910d8b8e9dad952b1ef
@@ -176,4 +176,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 80cbe8da099f6dd019320bb01cf92d24ffda5c79
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.4.0

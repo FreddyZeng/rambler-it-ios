@@ -28,8 +28,6 @@
 		022E33D81E44B3D100B9B9BF /* RamblerLocationFeedbackGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 022E33D71E44B3D100B9B9BF /* RamblerLocationFeedbackGeneratorTests.m */; };
 		022E342A1E48774D00B9B9BF /* GeneralFeedbackGeneratorImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 022E34291E48774D00B9B9BF /* GeneralFeedbackGeneratorImplementation.m */; };
 		022E342F1E4879A400B9B9BF /* FeedbackGeneratorsFactoryImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 022E342E1E4879A400B9B9BF /* FeedbackGeneratorsFactoryImplementation.m */; };
-		022E34531E48943100B9B9BF /* GeneralFeedbackGeneratorImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 022E34291E48774D00B9B9BF /* GeneralFeedbackGeneratorImplementation.m */; };
-		022E34541E48944400B9B9BF /* FeedbackGeneratorsFactoryImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 022E342E1E4879A400B9B9BF /* FeedbackGeneratorsFactoryImplementation.m */; };
 		022E34571E48C82200B9B9BF /* GeneralFeedbackGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 022E34561E48C82200B9B9BF /* GeneralFeedbackGeneratorTests.m */; };
 		022E34911E49BAED00B9B9BF /* FeedbackGeneratorsFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 022E34901E49BAED00B9B9BF /* FeedbackGeneratorsFactoryTests.m */; };
 		022E34B81E49CF7000B9B9BF /* RamblerLocationDataDisplayManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 022E34B71E49CF7000B9B9BF /* RamblerLocationDataDisplayManagerTests.m */; };
@@ -37,8 +35,6 @@
 		0231D7241DFEA33D0052471C /* UberRidesModalTestableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0231D7231DFEA33D0052471C /* UberRidesModalTestableObject.m */; };
 		0231D72B1DFEDCB50052471C /* UIAlertController+SupportedInterfaceOrientations.m in Sources */ = {isa = PBXBuildFile; fileRef = 0231D72A1DFEDCB50052471C /* UIAlertController+SupportedInterfaceOrientations.m */; };
 		0231D7BE1DFF34E60052471C /* LocationServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0231D7BD1DFF34E60052471C /* LocationServiceImplementation.m */; };
-		0231D7BF1DFF36470052471C /* LocationServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0231D7BD1DFF34E60052471C /* LocationServiceImplementation.m */; };
-		0231D7C01DFF366E0052471C /* LocationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0231D7201DFE87150052471C /* LocationConstants.m */; };
 		0231D7F11E002C140052471C /* UberRides.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0231D7EF1E002C140052471C /* UberRides.framework */; };
 		028E44601DF06CA300734E84 /* UberRidesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 028E445F1DF06CA300734E84 /* UberRidesAppDelegate.m */; };
 		028E446B1DF179CA00734E84 /* PredicateConfiguratorImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 028E446A1DF179CA00734E84 /* PredicateConfiguratorImplementation.m */; };
@@ -55,7 +51,6 @@
 		02F297C01DFAA295001F9B10 /* TestableObjectWithDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F297BF1DFAA295001F9B10 /* TestableObjectWithDelegate.m */; };
 		02F297C31DFAB15E001F9B10 /* UberRidesAppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F297C21DFAB15E001F9B10 /* UberRidesAppDelegateTests.m */; };
 		02F297C61DFAC5A2001F9B10 /* UberRidesAssemblyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F297C51DFAC5A2001F9B10 /* UberRidesAssemblyTests.m */; };
-		2AA222A5031CC7BA4A19B3EF /* libPods-RamblerMessageExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1AA7D4ECB1DA53BEC254E4 /* libPods-RamblerMessageExtension.a */; };
 		2B01CEBE1D50A55900DA8E66 /* MetaEventServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B01CEBD1D50A55900DA8E66 /* MetaEventServiceTests.m */; };
 		2B05E1611D50FEFC00E017AB /* SpeakerInfoCellObjectBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05E1601D50FEFC00E017AB /* SpeakerInfoCellObjectBuilder.m */; };
 		2B05E1691D51D7A100E017AB /* SpeakerInfoSocialContactsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B05E1671D51D7A100E017AB /* SpeakerInfoSocialContactsTableViewCell.m */; };
@@ -112,10 +107,7 @@
 		2BDDAB551D363D34007FD547 /* ROSPonsomizerImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDAB541D363D34007FD547 /* ROSPonsomizerImplementation.m */; };
 		2BDDB1D31D3F7235007FD547 /* DirectionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB1D21D3F7235007FD547 /* DirectionObject.m */; };
 		3784462F1D4E067A0016121E /* RCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3784462E1D4E067A0016121E /* RCNavigationController.m */; };
-		630E25FA1DBFA2860043C20E /* EventInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F6127C1CB00A220002AEF0 /* EventInteractor.m */; };
-		630E25FB1DBFA2920043C20E /* EventPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F612821CB00A220002AEF0 /* EventPresenter.m */; };
 		6310601E1DC89577006870EB /* MailComposeControllerFactoryImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6310601D1DC89577006870EB /* MailComposeControllerFactoryImplementation.m */; };
-		631060221DC8984F006870EB /* MailComposeControllerFactoryImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6310601D1DC89577006870EB /* MailComposeControllerFactoryImplementation.m */; };
 		631060231DC89850006870EB /* MailComposeControllerFactoryImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6310601D1DC89577006870EB /* MailComposeControllerFactoryImplementation.m */; };
 		6315BA051C9EC23600999877 /* VideoRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6315BA031C9EC23600999877 /* VideoRecordTableViewCell.m */; };
 		6315BA061C9EC23600999877 /* VideoRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6315BA041C9EC23600999877 /* VideoRecordTableViewCell.xib */; };
@@ -133,7 +125,6 @@
 		631808691C4A870C00A61E7D /* LectureMaterialInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 631808671C4A870C00A61E7D /* LectureMaterialInfoTableViewCell.m */; };
 		6318086A1C4A870C00A61E7D /* LectureMaterialInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 631808681C4A870C00A61E7D /* LectureMaterialInfoTableViewCell.xib */; };
 		6318086D1C4A872600A61E7D /* LectureMaterialInfoTableViewCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6318086C1C4A872600A61E7D /* LectureMaterialInfoTableViewCellObject.m */; };
-		631B75391DD1DC9900F62084 /* EventListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FBE8AEF1D634F0500DA0C32 /* EventListTableViewCell.xib */; };
 		631CBA3B1C00935300E3EBA8 /* EventServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631CBA3A1C00935300E3EBA8 /* EventServiceTests.m */; };
 		631CBA721C020CCD00E3EBA8 /* EventListModuleAssemblyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631CBA691C020CCD00E3EBA8 /* EventListModuleAssemblyTests.m */; };
 		631CBA731C020CCD00E3EBA8 /* EventCellObjectBuilderFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631CBA6D1C020CCD00E3EBA8 /* EventCellObjectBuilderFactoryTests.m */; };
@@ -144,31 +135,6 @@
 		631CBAA71C021C6900E3EBA8 /* EventTypeDeterminatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 631CBAA61C021C6900E3EBA8 /* EventTypeDeterminatorTests.m */; };
 		631FFE191BEF451400749DB8 /* CDResponderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 631FFE141BEF451400749DB8 /* CDResponderTableViewCell.m */; };
 		631FFE1A1BEF451400749DB8 /* UIView+CDResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 631FFE181BEF451400749DB8 /* UIView+CDResponder.m */; };
-		6321841D1D9BFD22001BB7A7 /* Conference.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6373A40E1BBDC5EA00DF67FF /* Conference.xcdatamodeld */; };
-		6321841E1D9BFD31001BB7A7 /* SpotlightIndexer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F78D7401D59D6EF009DDCEA /* SpotlightIndexer.xcdatamodeld */; };
-		6321841F1D9BFD42001BB7A7 /* Conference.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 6373A40E1BBDC5EA00DF67FF /* Conference.xcdatamodeld */; };
-		632184201D9BFD49001BB7A7 /* SpotlightIndexer.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 9F78D7401D59D6EF009DDCEA /* SpotlightIndexer.xcdatamodeld */; };
-		632184211D9D2F2B001BB7A7 /* _LectureMaterialPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064421D3F9CE900246C8D /* _LectureMaterialPlainObject.m */; };
-		632184221D9D2F3A001BB7A7 /* LecturePlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20646A1D3F9CE900246C8D /* LecturePlainObject.m */; };
-		632184231D9D2F65001BB7A7 /* _LecturePlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064441D3F9CE900246C8D /* _LecturePlainObject.m */; };
-		632184241D9D31B5001BB7A7 /* LectureMaterialModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064551D3F9CE900246C8D /* LectureMaterialModelObject.m */; };
-		632184251D9D31BF001BB7A7 /* _LectureMaterialModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20642F1D3F9CE900246C8D /* _LectureMaterialModelObject.m */; };
-		632184261D9D3268001BB7A7 /* LectureMaterialPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064681D3F9CE900246C8D /* LectureMaterialPlainObject.m */; };
-		632184271D9D32C6001BB7A7 /* SpeakerPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064721D3F9CE900246C8D /* SpeakerPlainObject.m */; };
-		632184281D9D32CD001BB7A7 /* _SpeakerPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20644C1D3F9CE900246C8D /* _SpeakerPlainObject.m */; };
-		632184291D9D3368001BB7A7 /* TagModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064611D3F9CE900246C8D /* TagModelObject.m */; };
-		6321842A1D9D33E7001BB7A7 /* TagPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064741D3F9CE900246C8D /* TagPlainObject.m */; };
-		6321842B1D9D33EF001BB7A7 /* _TagPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20644E1D3F9CE900246C8D /* _TagPlainObject.m */; };
-		6321842C1D9D342B001BB7A7 /* _MetaEventPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064461D3F9CE900246C8D /* _MetaEventPlainObject.m */; };
-		6321842D1D9D3430001BB7A7 /* MetaEventPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20646C1D3F9CE900246C8D /* MetaEventPlainObject.m */; };
-		6321842E1D9D34CC001BB7A7 /* TechModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064631D3F9CE900246C8D /* TechModelObject.m */; };
-		6321842F1D9D34D6001BB7A7 /* _TechModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20643D1D3F9CE900246C8D /* _TechModelObject.m */; };
-		632184301D9D3521001BB7A7 /* _TechPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064501D3F9CE900246C8D /* _TechPlainObject.m */; };
-		632184311D9D3527001BB7A7 /* TechPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064761D3F9CE900246C8D /* TechPlainObject.m */; };
-		632184321D9D3558001BB7A7 /* SocialNetworkAccountModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20645D1D3F9CE900246C8D /* SocialNetworkAccountModelObject.m */; };
-		632184331D9D355F001BB7A7 /* _SocialNetworkAccountModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064371D3F9CE900246C8D /* _SocialNetworkAccountModelObject.m */; };
-		632184341D9D3574001BB7A7 /* SocialNetworkAccountPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064701D3F9CE900246C8D /* SocialNetworkAccountPlainObject.m */; };
-		632184351D9D3579001BB7A7 /* _SocialNetworkAccountPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20644A1D3F9CE900246C8D /* _SocialNetworkAccountPlainObject.m */; };
 		634EB9E11DC8E5FC00EAEC0F /* SpeakerInfoAlertFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 634EB9E01DC8E5FC00EAEC0F /* SpeakerInfoAlertFactory.m */; };
 		635E18BF1CA6A0A9005B8439 /* SpeakerInfoModuleAssemblyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 635E18BE1CA6A0A9005B8439 /* SpeakerInfoModuleAssemblyTests.m */; };
 		635E18C21CA6A496005B8439 /* LectureModuleAssemblyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 635E18C11CA6A496005B8439 /* LectureModuleAssemblyTests.m */; };
@@ -183,46 +149,6 @@
 		636B640A1BBDD3FA0053E38F /* RegistrationQuestionServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B64091BBDD3FA0053E38F /* RegistrationQuestionServiceImplementation.m */; };
 		636B640D1BBDD5000053E38F /* SocialNetworkAccountServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B640C1BBDD5000053E38F /* SocialNetworkAccountServiceImplementation.m */; };
 		636B64101BBDD6260053E38F /* SpeakerServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B640F1BBDD6260053E38F /* SpeakerServiceImplementation.m */; };
-		636E26C61D8FDF41001ABB92 /* EventListModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE8AD01D634F0500DA0C32 /* EventListModuleAssembly.m */; };
-		636E26C71D8FE069001ABB92 /* EventListCellObjectBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE8AFA1D634F0500DA0C32 /* EventListCellObjectBuilder.m */; };
-		636E26C81D8FE076001ABB92 /* EventListDataDisplayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE8AF71D634F0500DA0C32 /* EventListDataDisplayManager.m */; };
-		636E26C91D8FE082001ABB92 /* EventListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE8AD31D634F0500DA0C32 /* EventListInteractor.m */; };
-		636E26CA1D8FE091001ABB92 /* EventListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE8AD81D634F0500DA0C32 /* EventListPresenter.m */; };
-		636E26CB1D8FE09C001ABB92 /* EventListRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE8ADC1D634F0500DA0C32 /* EventListRouter.m */; };
-		636E26CC1D8FE0AB001ABB92 /* EventListTableViewCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F33B87F1D63512200BE136C /* EventListTableViewCellObject.m */; };
-		636E26CD1D8FE0B7001ABB92 /* EventListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE8AEE1D634F0500DA0C32 /* EventListTableViewCell.m */; };
-		636E26CE1D8FE0C4001ABB92 /* EventListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE8AE31D634F0500DA0C32 /* EventListTableViewController.m */; };
-		636E26D01D8FE0DC001ABB92 /* ModuleAssemblyBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 636F8D0B1BCB825F00552B91 /* ModuleAssemblyBase.m */; };
-		636E26D11D8FE0E9001ABB92 /* PonsomizerAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 66704FF81D4606D800DD9D6E /* PonsomizerAssembly.m */; };
-		636E26D21D8FE0F4001ABB92 /* ROSPonsomizerImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDAB541D363D34007FD547 /* ROSPonsomizerImplementation.m */; };
-		636E26D61D8FE706001ABB92 /* ServiceComponentsAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F54D9A1BC5AB3C00DB1746 /* ServiceComponentsAssembly.m */; };
-		636E26D71D8FE719001ABB92 /* EventServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 636F8C961BC97B3100552B91 /* EventServiceImplementation.m */; };
-		636E26D81D8FE73F001ABB92 /* _EventModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20642D1D3F9CE900246C8D /* _EventModelObject.m */; };
-		636E26D91D8FE74D001ABB92 /* EventListQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF74FF91D26C448000D208D /* EventListQuery.m */; };
-		636E26DA1D8FE760001ABB92 /* EventModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064531D3F9CE900246C8D /* EventModelObject.m */; };
-		636E26DB1D8FE76E001ABB92 /* EventStoreService.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D7460E1C8B0D5200E3A381 /* EventStoreService.m */; };
-		636E26DC1D8FE77D001ABB92 /* LectureServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B64031BBDD19A0053E38F /* LectureServiceImplementation.m */; };
-		636E26DD1D8FE78D001ABB92 /* LectureModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064571D3F9CE900246C8D /* LectureModelObject.m */; };
-		636E26DE1D8FE799001ABB92 /* LastModifiedModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 661CA4111D65D0E30047EB68 /* LastModifiedModelObject.m */; };
-		636E26DF1D8FE7A2001ABB92 /* _LastModifiedModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 661CA4091D65D0D20047EB68 /* _LastModifiedModelObject.m */; };
-		636E26E01D8FE7AE001ABB92 /* MetaEventServiceImpementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B429A7B1D50987E004C005F /* MetaEventServiceImpementation.m */; };
-		636E26E11D8FE7C9001ABB92 /* _MetaEventModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064331D3F9CE900246C8D /* _MetaEventModelObject.m */; };
-		636E26E21D8FE7D7001ABB92 /* MetaEventModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064591D3F9CE900246C8D /* MetaEventModelObject.m */; };
-		636E26E31D8FE7E3001ABB92 /* OperationSchedulerImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF99E501BC42FF6006F15AF /* OperationSchedulerImplementation.m */; };
-		636E26E51D8FE7FB001ABB92 /* RamblerLocationServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F40777E1D2BF4F300D47EF6 /* RamblerLocationServiceImplementation.m */; };
-		636E26E61D8FE807001ABB92 /* SpeakerServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B640F1BBDD6260053E38F /* SpeakerServiceImplementation.m */; };
-		636E26E71D8FE816001ABB92 /* SpeakerModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20645F1D3F9CE900246C8D /* SpeakerModelObject.m */; };
-		636E26E81D8FE822001ABB92 /* SuggestServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE139221D65BD9700D7BF44 /* SuggestServiceImplementation.m */; };
-		636E26E91D8FE82D001ABB92 /* TagServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E999991D54B31300161D98 /* TagServiceImplementation.m */; };
-		636E26EA1D8FE837001ABB92 /* TagServicePredicateBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E9999B1D54B31300161D98 /* TagServicePredicateBuilder.m */; };
-		636E26EB1D8FE847001ABB92 /* _LectureModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064311D3F9CE900246C8D /* _LectureModelObject.m */; };
-		636E26EC1D8FE859001ABB92 /* _SpeakerModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064391D3F9CE900246C8D /* _SpeakerModelObject.m */; };
-		636E26ED1D8FE86A001ABB92 /* _TagModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B20643B1D3F9CE900246C8D /* _TagModelObject.m */; };
-		636E26EE1D8FE8AD001ABB92 /* EventPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064661D3F9CE900246C8D /* EventPlainObject.m */; };
-		636E26EF1D8FE8CB001ABB92 /* _EventPlainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2064401D3F9CE900246C8D /* _EventPlainObject.m */; };
-		636E26F01D8FE8E6001ABB92 /* ErrorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 63ECC4151CA81E5300439A01 /* ErrorConstants.m */; };
-		636E26F11D8FEF29001ABB92 /* NSManagedObjectID+LJStringConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 661CA4061D65D0720047EB68 /* NSManagedObjectID+LJStringConversion.m */; };
-		636E26F31D8FF072001ABB92 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636E26F21D8FF072001ABB92 /* CoreData.framework */; };
 		636F8C971BC97B3100552B91 /* EventServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 636F8C961BC97B3100552B91 /* EventServiceImplementation.m */; };
 		636F8D0C1BCB825F00552B91 /* ModuleAssemblyBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 636F8D0B1BCB825F00552B91 /* ModuleAssemblyBase.m */; };
 		636F8DDA1BCB8FE800552B91 /* RamblerLocationModuleAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 636F8DC21BCB8FE800552B91 /* RamblerLocationModuleAssembly.m */; };
@@ -231,78 +157,15 @@
 		636F8DDD1BCB8FE800552B91 /* RamblerLocationRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 636F8DCD1BCB8FE800552B91 /* RamblerLocationRouter.m */; };
 		636F8DDE1BCB8FE800552B91 /* RamblerLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 636F8DD11BCB8FE800552B91 /* RamblerLocationViewController.m */; };
 		637382811DD5AC88004246EC /* EventListProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 637382801DD5AC88004246EC /* EventListProcessor.m */; };
-		637382821DD5B2BB004246EC /* EventListProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 637382801DD5AC88004246EC /* EventListProcessor.m */; };
 		637382831DD5B2BE004246EC /* EventListProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 637382801DD5AC88004246EC /* EventListProcessor.m */; };
-		637382991DD5D9C0004246EC /* MessagesRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 637382981DD5D9C0004246EC /* MessagesRouter.m */; };
-		6373829D1DD5E12F004246EC /* MessagesPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373829C1DD5E12F004246EC /* MessagesPresenter.m */; };
-		637382A01DD5EA17004246EC /* MessagesInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6373829F1DD5EA17004246EC /* MessagesInteractor.m */; };
-		63770CB31DD61D2A0039AB0D /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63770CB21DD61D2A0039AB0D /* MessagesViewController.m */; };
-		63770CB61DD61D6F0039AB0D /* MessageExtensionAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 63770CB51DD61D6F0039AB0D /* MessageExtensionAssembly.m */; };
-		63770CB91DD61E100039AB0D /* RamblerExtensionTyphoonActivator.m in Sources */ = {isa = PBXBuildFile; fileRef = 63770CB81DD61E100039AB0D /* RamblerExtensionTyphoonActivator.m */; };
-		63770CBC1DD61E2A0039AB0D /* MessagesLaunchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 63770CBB1DD61E2A0039AB0D /* MessagesLaunchHandler.m */; };
-		63770CBF1DD61E3D0039AB0D /* MessagesConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 63770CBE1DD61E3D0039AB0D /* MessagesConstants.m */; };
-		63770CC21DD61E6B0039AB0D /* MessageExtensionTyphoonActivator.m in Sources */ = {isa = PBXBuildFile; fileRef = 63770CC11DD61E6B0039AB0D /* MessageExtensionTyphoonActivator.m */; };
 		6377140C1DDC8109009FF726 /* MessagesRouterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6377140B1DDC8109009FF726 /* MessagesRouterTests.m */; };
-		637873901DED897000CA1859 /* UrlComponentsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378738F1DED897000CA1859 /* UrlComponentsFactory.m */; };
 		637873911DEDA1C600CA1859 /* UrlComponentsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378738F1DED897000CA1859 /* UrlComponentsFactory.m */; };
 		637873921DEDA1C700CA1859 /* UrlComponentsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6378738F1DED897000CA1859 /* UrlComponentsFactory.m */; };
 		638918CC1DC28AA3009B34AF /* MessagesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 638918CB1DC28AA3009B34AF /* MessagesAppDelegate.m */; };
 		638918CF1DC333A4009B34AF /* MessagesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 638918CB1DC28AA3009B34AF /* MessagesAppDelegate.m */; };
-		638918D01DC333B6009B34AF /* MessagesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 638918CB1DC28AA3009B34AF /* MessagesAppDelegate.m */; };
 		638918D61DC33A33009B34AF /* MessagesUserActivityFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 638918D51DC33A33009B34AF /* MessagesUserActivityFactory.m */; };
 		638918D71DC33CC5009B34AF /* MessagesUserActivityFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 638918D51DC33A33009B34AF /* MessagesUserActivityFactory.m */; };
-		638918D81DC33CD0009B34AF /* MessagesUserActivityFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 638918D51DC33A33009B34AF /* MessagesUserActivityFactory.m */; };
 		638918DC1DC340B4009B34AF /* NSArray+NSURLQueryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 638918DB1DC340B4009B34AF /* NSArray+NSURLQueryItem.m */; };
-		63A9D5C51DB759A600169E2E /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F612F51CB00A220002AEF0 /* EventViewController.m */; };
-		63A9D5C61DB759B600169E2E /* LocalizedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 631808621C4A66FA00A61E7D /* LocalizedStrings.m */; };
-		63A9D5C91DB7614900169E2E /* Event.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F612F91CB00A220002AEF0 /* Event.storyboard */; };
-		63A9D5CA1DB7616200169E2E /* SpeakerInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F6134B1CB00A220002AEF0 /* SpeakerInfo.storyboard */; };
-		63A9D5CC1DB7617A00169E2E /* Lecture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F613221CB00A220002AEF0 /* Lecture.storyboard */; };
-		63BB9A0C1DB2858E00C2F2B9 /* PresentationLayerHelpersAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8F2811BF7925F000017F3 /* PresentationLayerHelpersAssembly.m */; };
-		63BB9A0D1DB285A800C2F2B9 /* AppleMapsLinkBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEAF0B1D2E5CE0006E9649 /* AppleMapsLinkBuilder.m */; };
-		63BB9A0E1DB285BA00C2F2B9 /* DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D86BD91C1439D800986536 /* DateFormatter.m */; };
-		63BB9A0F1DB285C900C2F2B9 /* EventTypeDeterminator.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F8F2BB1BF8A713000017F3 /* EventTypeDeterminator.m */; };
-		63BB9A101DB285D600C2F2B9 /* SafariFactoryImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE8A101D5E5F1B00DA0C32 /* SafariFactoryImplementation.m */; };
-		63BB9A111DB285E300C2F2B9 /* VideoThumbnailGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE8A071D5DFA1600DA0C32 /* VideoThumbnailGenerator.m */; };
-		63BB9A121DB285F200C2F2B9 /* YouTubeIdentifierDeriviator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B49E01D6EEE9000ED176B /* YouTubeIdentifierDeriviator.m */; };
-		63BB9A131DB2860000C2F2B9 /* YouTubePlayerFactoryImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B49E81D6EF72B00ED176B /* YouTubePlayerFactoryImplementation.m */; };
-		63BB9A191DB4B45400C2F2B9 /* LaunchSystemAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE89E21D5CBB7800DA0C32 /* LaunchSystemAssembly.m */; };
-		63BB9A1A1DB4B46300C2F2B9 /* EventLaunchRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE899F1D5CB71300DA0C32 /* EventLaunchRouter.m */; };
-		63BB9A1B1DB4B47C00C2F2B9 /* LectureLaunchRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE89A21D5CB71300DA0C32 /* LectureLaunchRouter.m */; };
-		63BB9A1C1DB4B48800C2F2B9 /* QuickActionAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B82211D7DA554002E977A /* QuickActionAppDelegate.m */; };
-		63BB9A1D1DB4B49500C2F2B9 /* QuickActionLaunchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B82251D7DA8B5002E977A /* QuickActionLaunchHandler.m */; };
-		63BB9A1E1DB4B4A200C2F2B9 /* QuickActionUserActivityFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B822C1D7DAB51002E977A /* QuickActionUserActivityFactory.m */; };
-		63BB9A1F1DB4B4BF00C2F2B9 /* SpeakerLaunchRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE89A51D5CB71300DA0C32 /* SpeakerLaunchRouter.m */; };
-		63BB9A201DB4B4CB00C2F2B9 /* SpotlightAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE898A1D5CB71300DA0C32 /* SpotlightAppDelegate.m */; };
-		63BB9A211DB4B4D800C2F2B9 /* SpotlightLaunchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE89951D5CB71300DA0C32 /* SpotlightLaunchHandler.m */; };
-		63BB9A221DB4B4E500C2F2B9 /* TabLaunchRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B823A1D7ECA07002E977A /* TabLaunchRouter.m */; };
-		63BB9A231DB4B4F900C2F2B9 /* QuickActionConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B82321D7DB1AD002E977A /* QuickActionConstants.m */; };
-		63BB9A241DB4BA4600C2F2B9 /* SpotlightIndexerAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F40978C1D5210D9008BFE42 /* SpotlightIndexerAssembly.m */; };
-		63BB9A251DB4BA5400C2F2B9 /* ContextStorageImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F78D74D1D59D755009DDCEA /* ContextStorageImplementation.m */; };
-		63BB9A261DB4BA6700C2F2B9 /* EventChangeProviderFetchRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4097941D534F82008BFE42 /* EventChangeProviderFetchRequestFactory.m */; };
-		63BB9A271DB4BA7300C2F2B9 /* EventObjectIndexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF1251D1D51DF460098625F /* EventObjectIndexer.m */; };
-		63BB9A281DB4BA8000C2F2B9 /* EventObjectTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4097831D51F658008BFE42 /* EventObjectTransformer.m */; };
-		63BB9A291DB4BA8D00C2F2B9 /* FetchedResultsControllerChangeProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F533A881D50DE84004F8E82 /* FetchedResultsControllerChangeProvider.m */; };
-		63BB9A2A1DB4BA9A00C2F2B9 /* IndexerMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F533A8D1D50EC10004F8E82 /* IndexerMonitor.m */; };
-		63BB9A2B1DB4BAA800C2F2B9 /* IndexTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F533A9F1D50F181004F8E82 /* IndexTransaction.m */; };
-		63BB9A2C1DB4BAB300C2F2B9 /* IndexerMonitorOperationQueueFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB6A6F1D53896E0061F333 /* IndexerMonitorOperationQueueFactory.m */; };
-		63BB9A2D1DB4BABE00C2F2B9 /* IndexerStateStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5316A81D50F56900F13931 /* IndexerStateStorage.m */; };
-		63BB9A2E1DB4BACA00C2F2B9 /* IndexState.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F78D7471D59D73E009DDCEA /* IndexState.m */; };
-		63BB9A2F1DB4BADA00C2F2B9 /* IndexTransactionBatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F533AA31D50F195004F8E82 /* IndexTransactionBatch.m */; };
-		63BB9A301DB4BB0100C2F2B9 /* LectureChangeProviderFetchRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F78D77C1D5A075C009DDCEA /* LectureChangeProviderFetchRequestFactory.m */; };
-		63BB9A311DB4BB1B00C2F2B9 /* LectureObjectIndexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F78D7751D5A023B009DDCEA /* LectureObjectIndexer.m */; };
-		63BB9A321DB4BB3700C2F2B9 /* LectureObjectTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F78D76E1D59FFB8009DDCEA /* LectureObjectTransformer.m */; };
-		63BB9A331DB4BB4600C2F2B9 /* ObjectIndexerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F533A951D50EEE0004F8E82 /* ObjectIndexerBase.m */; };
-		63BB9A341DB4BB5400C2F2B9 /* SpeakerChangeProviderFetchRequestFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F78D7601D59E8D2009DDCEA /* SpeakerChangeProviderFetchRequestFactory.m */; };
-		63BB9A351DB4BB5F00C2F2B9 /* SpeakerObjectIndexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F78D7671D59EA02009DDCEA /* SpeakerObjectIndexer.m */; };
-		63BB9A361DB4BB6B00C2F2B9 /* SpeakerObjectTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F78D7591D59E6CB009DDCEA /* SpeakerObjectTransformer.m */; };
-		63BB9A371DB4BB7600C2F2B9 /* SpotlightCoreDataStackCoordinatorImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F78D73E1D59D6EF009DDCEA /* SpotlightCoreDataStackCoordinatorImplementation.m */; };
-		63BB9A381DB4BB8200C2F2B9 /* ObjectTransformerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE89EA1D5CCF8300DA0C32 /* ObjectTransformerConstants.m */; };
-		63BB9A391DB4BB8D00C2F2B9 /* SpotlightIndexerConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FAB6A6B1D5384F30061F333 /* SpotlightIndexerConstants.m */; };
-		63BDBBC31D87E3DE006E8A15 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BDBBC21D87E3DE006E8A15 /* Messages.framework */; };
-		63BDBBCA1D87E3DE006E8A15 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BDBBC81D87E3DE006E8A15 /* MainInterface.storyboard */; };
-		63BDBBCC1D87E3DE006E8A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BDBBCB1D87E3DE006E8A15 /* Assets.xcassets */; };
-		63BDBBD01D87E3DE006E8A15 /* RamblerMessageExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 63BDBBC11D87E3DE006E8A15 /* RamblerMessageExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		63C31BF71DD9BB7F00AA51BD /* MessagesLaunchHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 63770CBB1DD61E2A0039AB0D /* MessagesLaunchHandler.m */; };
 		63C31BF91DD9BBAC00AA51BD /* MessagesConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 63770CBE1DD61E3D0039AB0D /* MessagesConstants.m */; };
 		63C31BFD1DD9C10900AA51BD /* MessagesAppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C31BFC1DD9C10900AA51BD /* MessagesAppDelegateTests.m */; };
@@ -432,23 +295,16 @@
 		63FDCE141BBDBA2A00A43B60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63FDCE021BBDBA2A00A43B60 /* Assets.xcassets */; };
 		63FDCE161BBDBA2A00A43B60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FDCE051BBDBA2A00A43B60 /* main.m */; };
 		6428BB191F9F38A600163972 /* StringFormatterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6428BB181F9F38A600163972 /* StringFormatterImplementation.m */; };
-		6428BB1B1F9F3E9C00163972 /* StringFormatterImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6428BB181F9F38A600163972 /* StringFormatterImplementation.m */; };
 		6428BB1F1F9F697200163972 /* StringFormatterImplementationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6428BB1D1F9F46AF00163972 /* StringFormatterImplementationTests.m */; };
 		644FB8C41F94B5C600CA2C7B /* TagModelObjectMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 644FB8C31F94B5C600CA2C7B /* TagModelObjectMock.m */; };
 		645938EE1F94C866007DACBF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 645938F01F94C866007DACBF /* Localizable.strings */; };
 		645938F21F94C896007DACBF /* Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645938F51F94C896007DACBF /* Events.storyboard */; };
-		645938F31F94C896007DACBF /* Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645938F51F94C896007DACBF /* Events.storyboard */; };
 		645938F81F94C904007DACBF /* RamblerLocation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645938FB1F94C904007DACBF /* RamblerLocation.storyboard */; };
-		645938F91F94C904007DACBF /* RamblerLocation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645938FB1F94C904007DACBF /* RamblerLocation.storyboard */; };
 		645938FE1F94C955007DACBF /* Reports.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645939011F94C955007DACBF /* Reports.storyboard */; };
-		645938FF1F94C955007DACBF /* Reports.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645939011F94C955007DACBF /* Reports.storyboard */; };
 		645939041F94CADB007DACBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645939071F94CADB007DACBF /* Main.storyboard */; };
-		645939051F94CADB007DACBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 645939071F94CADB007DACBF /* Main.storyboard */; };
 		64811EF81F9782D40074DB24 /* SearchPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F613D01CB111070002AEF0 /* SearchPresenterTests.m */; };
 		64811EFC1F978D320074DB24 /* UberAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 64811EFB1F978D320074DB24 /* UberAssembly.m */; };
 		661B40A31DF17CB3002DA46C /* SearchLaunchRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 661B40A21DF17CB3002DA46C /* SearchLaunchRouter.m */; };
-		661B40A41DF17CC3002DA46C /* SearchLaunchRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 661B40A21DF17CB3002DA46C /* SearchLaunchRouter.m */; };
-		661B40A51DF17CCC002DA46C /* SpotlightContinuationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCFC50D1D903719009FD57D /* SpotlightContinuationAppDelegate.m */; };
 		661CA3F51D65CF920047EB68 /* EventOperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 661CA3F41D65CF920047EB68 /* EventOperationFactory.m */; };
 		661CA3FE1D65CFF70047EB68 /* LastModifiedMapperOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 661CA3FD1D65CFF70047EB68 /* LastModifiedMapperOperation.m */; };
 		661CA4031D65D04E0047EB68 /* ServerResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 661CA4021D65D04E0047EB68 /* ServerResponseModel.m */; };
@@ -472,11 +328,6 @@
 		663740AB1E0A917100A3FCF8 /* LectureImageIndexerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 663740AA1E0A917100A3FCF8 /* LectureImageIndexerTests.m */; };
 		663740AD1E0A918F00A3FCF8 /* SpeakerImageIndexerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 663740AC1E0A918F00A3FCF8 /* SpeakerImageIndexerTests.m */; };
 		663740AF1E0A91A400A3FCF8 /* SpotlightImageIndexerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 663740AE1E0A91A400A3FCF8 /* SpotlightImageIndexerTests.m */; };
-		663740B11E0A9AF000A3FCF8 /* EventImageIndexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 972E24241DFF462E007338EF /* EventImageIndexer.m */; };
-		663740B21E0A9B2800A3FCF8 /* LectureImageIndexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623A6A21E09604700738000 /* LectureImageIndexer.m */; };
-		663740B31E0A9B2D00A3FCF8 /* SpeakerImageIndexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 972E24211DFF460D007338EF /* SpeakerImageIndexer.m */; };
-		663740B41E0A9B3200A3FCF8 /* SpotlightImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6623A6A51E09A5A600738000 /* SpotlightImageModel.m */; };
-		663740B51E0A9B4300A3FCF8 /* SpotlightImageIndexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 973421B81DFD503900331745 /* SpotlightImageIndexer.m */; };
 		666C5C331D4F2AF6002D73D5 /* ReportsSearchPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 666C5C321D4F2AF6002D73D5 /* ReportsSearchPresenterTests.m */; };
 		666C5C3E1D4F344B002D73D5 /* ReportsSearchPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 666C5C3D1D4F344B002D73D5 /* ReportsSearchPresenter.m */; };
 		666C5C3F1D4F344B002D73D5 /* ReportsSearchPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 666C5C3D1D4F344B002D73D5 /* ReportsSearchPresenter.m */; };
@@ -499,9 +350,6 @@
 		667AD53D1DF0663100BCA9B9 /* LectureInfoTableViewCellObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AD53C1DF0663100BCA9B9 /* LectureInfoTableViewCellObjectMapper.m */; };
 		667AD5411DF0664C00BCA9B9 /* LectureInfoTableViewCellCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AD5401DF0664C00BCA9B9 /* LectureInfoTableViewCellCalculator.m */; };
 		667AD5451DF06C7E00BCA9B9 /* UIFont+RIDTypefaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 667AD5441DF06C7E00BCA9B9 /* UIFont+RIDTypefaces.m */; };
-		667E96971E0443F700EC9F20 /* LectureMaterialDownloadingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C7DD981DF33A8A00D5D1F4 /* LectureMaterialDownloadingManager.m */; };
-		667E96981E0443FD00EC9F20 /* LectureMaterialServiceImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 636B64061BBDD2A40053E38F /* LectureMaterialServiceImplementation.m */; };
-		667E96991E04440200EC9F20 /* VideoMaterialHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 669D944A1DE0D97200589AC2 /* VideoMaterialHandler.m */; };
 		6691CC9D1DF86BD700894E99 /* LectureTableViewAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6691CC9C1DF86BD700894E99 /* LectureTableViewAnimator.m */; };
 		669B8AC51E07E7C900D5889D /* LectureMaterialServiceImplementationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 669B8AC41E07E7C900D5889D /* LectureMaterialServiceImplementationTests.m */; };
 		669B8AC81E07E80700D5889D /* LectureMaterialDownloadingManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 669B8AC71E07E80700D5889D /* LectureMaterialDownloadingManagerTests.m */; };
@@ -806,7 +654,6 @@
 		9FF99E541BC4317E006F15AF /* OperationSchedulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF99E531BC4317E006F15AF /* OperationSchedulerTests.m */; };
 		9FFA8A281DF31F3400FB3C2E /* RamblerLocationStateStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA8A271DF31F3400FB3C2E /* RamblerLocationStateStorage.m */; };
 		9FFA8A2C1DF3220500FB3C2E /* ApplicationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA8A2B1DF3220500FB3C2E /* ApplicationConstants.m */; };
-		9FFA8A2D1DF32B4700FB3C2E /* ApplicationConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFA8A2B1DF3220500FB3C2E /* ApplicationConstants.m */; };
 		9FFEAF051D2E41B4006E9649 /* DirectionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEAF031D2E41B4006E9649 /* DirectionCollectionViewCell.m */; };
 		9FFEAF061D2E41B4006E9649 /* DirectionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FFEAF041D2E41B4006E9649 /* DirectionCollectionViewCell.xib */; };
 		9FFEAF0C1D2E5CE0006E9649 /* AppleMapsLinkBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FFEAF0B1D2E5CE0006E9649 /* AppleMapsLinkBuilder.m */; };
@@ -814,13 +661,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		63BDBBCE1D87E3DE006E8A15 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9F1F37DC1BBBB80D00C7797D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 63BDBBC01D87E3DE006E8A15;
-			remoteInfo = RamblerMessageExtension;
-		};
 		9F1F38011BBBB80D00C7797D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9F1F37DC1BBBB80D00C7797D /* Project object */;
@@ -837,7 +677,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				63BDBBD01D87E3DE006E8A15 /* RamblerMessageExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -889,7 +728,6 @@
 		028E44751DF1B81C00734E84 /* SearchFacadeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFacadeTests.m; sourceTree = "<group>"; };
 		028E44791DF6083400734E84 /* UberRidesAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UberRidesAssembly.h; sourceTree = "<group>"; };
 		028E447A1DF6083400734E84 /* UberRidesAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UberRidesAssembly.m; sourceTree = "<group>"; };
-		028E447E1DF69FEF00734E84 /* Conferences.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Conferences.entitlements; sourceTree = "<group>"; };
 		029358961DF87EC9007CD5FD /* RamblerLocationInteractorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RamblerLocationInteractorTests.m; path = RamblerLocationModuleTests/RamblerLocationInteractorTests.m; sourceTree = "<group>"; };
 		029358971DF87EC9007CD5FD /* RamblerLocationPresenterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RamblerLocationPresenterTests.m; path = RamblerLocationModuleTests/RamblerLocationPresenterTests.m; sourceTree = "<group>"; };
 		029358981DF87EC9007CD5FD /* RamblerLocationRouterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RamblerLocationRouterTests.m; path = RamblerLocationModuleTests/RamblerLocationRouterTests.m; sourceTree = "<group>"; };
@@ -1173,7 +1011,6 @@
 		638918DB1DC340B4009B34AF /* NSArray+NSURLQueryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+NSURLQueryItem.m"; path = "NSArray+NSURLQueryItem/NSArray+NSURLQueryItem.m"; sourceTree = "<group>"; };
 		6394E4181CB1510800548EAE /* LectureViewController_Testable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LectureViewController_Testable.h; sourceTree = "<group>"; };
 		63AA03551D99067000F4C094 /* RamblerMessageExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RamblerMessageExtension.entitlements; sourceTree = "<group>"; };
-		63BDBBC11D87E3DE006E8A15 /* RamblerMessageExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RamblerMessageExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BDBBC21D87E3DE006E8A15 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
 		63BDBBC91D87E3DE006E8A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		63BDBBCB1D87E3DE006E8A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -2120,16 +1957,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63BDBBBE1D87E3DE006E8A15 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				636E26F31D8FF072001ABB92 /* CoreData.framework in Frameworks */,
-				63BDBBC31D87E3DE006E8A15 /* Messages.framework in Frameworks */,
-				2AA222A5031CC7BA4A19B3EF /* libPods-RamblerMessageExtension.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9F1F37E11BBBB80D00C7797D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -6744,7 +6571,6 @@
 			children = (
 				9F1F37E41BBBB80D00C7797D /* Conferences.app */,
 				9F1F38001BBBB80D00C7797D /* ConferencesTests.xctest */,
-				63BDBBC11D87E3DE006E8A15 /* RamblerMessageExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -6752,7 +6578,6 @@
 		9F1F37E61BBBB80D00C7797D /* Conferences */ = {
 			isa = PBXGroup;
 			children = (
-				028E447E1DF69FEF00734E84 /* Conferences.entitlements */,
 				63FDCDD81BBDBA2A00A43B60 /* Classes */,
 				63FDCE001BBDBA2A00A43B60 /* Resources */,
 				63FDCE031BBDBA2A00A43B60 /* Supporting Files */,
@@ -9131,25 +8956,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63BDBBC01D87E3DE006E8A15 /* RamblerMessageExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63BDBBD41D87E3DE006E8A15 /* Build configuration list for PBXNativeTarget "RamblerMessageExtension" */;
-			buildPhases = (
-				8DBA6B940BC2407FF13F7FF6 /* [CP] Check Pods Manifest.lock */,
-				63BDBBBD1D87E3DE006E8A15 /* Sources */,
-				63BDBBBE1D87E3DE006E8A15 /* Frameworks */,
-				63BDBBBF1D87E3DE006E8A15 /* Resources */,
-				E654ADF620C5D82860C1B66C /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RamblerMessageExtension;
-			productName = RamblerMessageExtension;
-			productReference = 63BDBBC11D87E3DE006E8A15 /* RamblerMessageExtension.appex */;
-			productType = "com.apple.product-type.app-extension.messages";
-		};
 		9F1F37E31BBBB80D00C7797D /* Conferences */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F1F38091BBBB80D00C7797D /* Build configuration list for PBXNativeTarget "Conferences" */;
@@ -9167,7 +8973,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				63BDBBCF1D87E3DE006E8A15 /* PBXTargetDependency */,
 			);
 			name = Conferences;
 			productName = Conferences;
@@ -9207,19 +9012,9 @@
 					2B750D101D362C1B00EACE98 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					63BDBBC01D87E3DE006E8A15 = {
-						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = UM246WFXVS;
-						ProvisioningStyle = Automatic;
-						SystemCapabilities = {
-							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
-							};
-						};
-					};
 					9F1F37E31BBBB80D00C7797D = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = UM246WFXVS;
+						DevelopmentTeam = 8VF8D8GDRV;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -9235,7 +9030,7 @@
 					};
 					9F1F37FF1BBBB80D00C7797D = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = UM246WFXVS;
+						DevelopmentTeam = 8VF8D8GDRV;
 						TestTargetID = 9F1F37E31BBBB80D00C7797D;
 					};
 				};
@@ -9257,31 +9052,11 @@
 				9F1F37E31BBBB80D00C7797D /* Conferences */,
 				2B750D101D362C1B00EACE98 /* Mogenerator */,
 				9F1F37FF1BBBB80D00C7797D /* ConferencesTests */,
-				63BDBBC01D87E3DE006E8A15 /* RamblerMessageExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		63BDBBBF1D87E3DE006E8A15 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				631B75391DD1DC9900F62084 /* EventListTableViewCell.xib in Resources */,
-				632184201D9BFD49001BB7A7 /* SpotlightIndexer.xcdatamodeld in Resources */,
-				645938F91F94C904007DACBF /* RamblerLocation.storyboard in Resources */,
-				63A9D5C91DB7614900169E2E /* Event.storyboard in Resources */,
-				645938F31F94C896007DACBF /* Events.storyboard in Resources */,
-				645938FF1F94C955007DACBF /* Reports.storyboard in Resources */,
-				645939051F94CADB007DACBF /* Main.storyboard in Resources */,
-				63A9D5CA1DB7616200169E2E /* SpeakerInfo.storyboard in Resources */,
-				6321841F1D9BFD42001BB7A7 /* Conference.xcdatamodeld in Resources */,
-				63A9D5CC1DB7617A00169E2E /* Lecture.storyboard in Resources */,
-				63BDBBCC1D87E3DE006E8A15 /* Assets.xcassets in Resources */,
-				63BDBBCA1D87E3DE006E8A15 /* MainInterface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9F1F37E21BBBB80D00C7797D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -9368,9 +9143,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Conferences/Pods-Conferences-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MBCircularProgressBar/MBCircularProgressBar.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MBCircularProgressBar.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -9383,9 +9161,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Conferences-ConferencesTests/Pods-Conferences-ConferencesTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MBCircularProgressBar/MBCircularProgressBar.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MBCircularProgressBar.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -9404,21 +9185,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Scripts/mogenerator.sh\"";
-		};
-		8DBA6B940BC2407FF13F7FF6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
 		};
 		9FF4C3E41CE22036002157B2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -9454,28 +9220,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Conferences-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E654ADF620C5D82860C1B66C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RamblerMessageExtension/Pods-RamblerMessageExtension-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E71F09ED8DDAD3310B45A64B /* [CP] Check Pods Manifest.lock */ = {
@@ -9484,13 +9238,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Conferences-ConferencesTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EEF8A008F04803B32ED23F26 /* [CP] Embed Pods Frameworks */ = {
@@ -9511,150 +9268,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		63BDBBBD1D87E3DE006E8A15 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0231D7C01DFF366E0052471C /* LocationConstants.m in Sources */,
-				0231D7BF1DFF36470052471C /* LocationServiceImplementation.m in Sources */,
-				636E26D71D8FE719001ABB92 /* EventServiceImplementation.m in Sources */,
-				667E96991E04440200EC9F20 /* VideoMaterialHandler.m in Sources */,
-				63770CC21DD61E6B0039AB0D /* MessageExtensionTyphoonActivator.m in Sources */,
-				636E26ED1D8FE86A001ABB92 /* _TagModelObject.m in Sources */,
-				63BB9A101DB285D600C2F2B9 /* SafariFactoryImplementation.m in Sources */,
-				63BB9A391DB4BB8D00C2F2B9 /* SpotlightIndexerConstants.m in Sources */,
-				632184241D9D31B5001BB7A7 /* LectureMaterialModelObject.m in Sources */,
-				63BB9A201DB4B4CB00C2F2B9 /* SpotlightAppDelegate.m in Sources */,
-				63A9D5C61DB759B600169E2E /* LocalizedStrings.m in Sources */,
-				636E26EF1D8FE8CB001ABB92 /* _EventPlainObject.m in Sources */,
-				636E26CE1D8FE0C4001ABB92 /* EventListTableViewController.m in Sources */,
-				63BB9A301DB4BB0100C2F2B9 /* LectureChangeProviderFetchRequestFactory.m in Sources */,
-				636E26E71D8FE816001ABB92 /* SpeakerModelObject.m in Sources */,
-				63770CBF1DD61E3D0039AB0D /* MessagesConstants.m in Sources */,
-				636E26CD1D8FE0B7001ABB92 /* EventListTableViewCell.m in Sources */,
-				63BB9A131DB2860000C2F2B9 /* YouTubePlayerFactoryImplementation.m in Sources */,
-				663740B51E0A9B4300A3FCF8 /* SpotlightImageIndexer.m in Sources */,
-				6321841E1D9BFD31001BB7A7 /* SpotlightIndexer.xcdatamodeld in Sources */,
-				63BB9A381DB4BB8200C2F2B9 /* ObjectTransformerConstants.m in Sources */,
-				63BB9A371DB4BB7600C2F2B9 /* SpotlightCoreDataStackCoordinatorImplementation.m in Sources */,
-				63BB9A321DB4BB3700C2F2B9 /* LectureObjectTransformer.m in Sources */,
-				661B40A41DF17CC3002DA46C /* SearchLaunchRouter.m in Sources */,
-				636E26E21D8FE7D7001ABB92 /* MetaEventModelObject.m in Sources */,
-				63770CBC1DD61E2A0039AB0D /* MessagesLaunchHandler.m in Sources */,
-				663740B11E0A9AF000A3FCF8 /* EventImageIndexer.m in Sources */,
-				632184311D9D3527001BB7A7 /* TechPlainObject.m in Sources */,
-				636E26DD1D8FE78D001ABB92 /* LectureModelObject.m in Sources */,
-				638918D81DC33CD0009B34AF /* MessagesUserActivityFactory.m in Sources */,
-				667E96981E0443FD00EC9F20 /* LectureMaterialServiceImplementation.m in Sources */,
-				632184341D9D3574001BB7A7 /* SocialNetworkAccountPlainObject.m in Sources */,
-				63BB9A0C1DB2858E00C2F2B9 /* PresentationLayerHelpersAssembly.m in Sources */,
-				022E34541E48944400B9B9BF /* FeedbackGeneratorsFactoryImplementation.m in Sources */,
-				6321842A1D9D33E7001BB7A7 /* TagPlainObject.m in Sources */,
-				63770CB31DD61D2A0039AB0D /* MessagesViewController.m in Sources */,
-				63BB9A261DB4BA6700C2F2B9 /* EventChangeProviderFetchRequestFactory.m in Sources */,
-				632184301D9D3521001BB7A7 /* _TechPlainObject.m in Sources */,
-				636E26D81D8FE73F001ABB92 /* _EventModelObject.m in Sources */,
-				63BB9A2D1DB4BABE00C2F2B9 /* IndexerStateStorage.m in Sources */,
-				663740B21E0A9B2800A3FCF8 /* LectureImageIndexer.m in Sources */,
-				663740B31E0A9B2D00A3FCF8 /* SpeakerImageIndexer.m in Sources */,
-				63BB9A341DB4BB5400C2F2B9 /* SpeakerChangeProviderFetchRequestFactory.m in Sources */,
-				636E26E01D8FE7AE001ABB92 /* MetaEventServiceImpementation.m in Sources */,
-				63BB9A241DB4BA4600C2F2B9 /* SpotlightIndexerAssembly.m in Sources */,
-				636E26F01D8FE8E6001ABB92 /* ErrorConstants.m in Sources */,
-				632184221D9D2F3A001BB7A7 /* LecturePlainObject.m in Sources */,
-				636E26E31D8FE7E3001ABB92 /* OperationSchedulerImplementation.m in Sources */,
-				637873901DED897000CA1859 /* UrlComponentsFactory.m in Sources */,
-				6321842E1D9D34CC001BB7A7 /* TechModelObject.m in Sources */,
-				636E26C61D8FDF41001ABB92 /* EventListModuleAssembly.m in Sources */,
-				632184321D9D3558001BB7A7 /* SocialNetworkAccountModelObject.m in Sources */,
-				636E26DE1D8FE799001ABB92 /* LastModifiedModelObject.m in Sources */,
-				63BB9A0E1DB285BA00C2F2B9 /* DateFormatter.m in Sources */,
-				63BB9A1F1DB4B4BF00C2F2B9 /* SpeakerLaunchRouter.m in Sources */,
-				63BB9A0D1DB285A800C2F2B9 /* AppleMapsLinkBuilder.m in Sources */,
-				636E26E81D8FE822001ABB92 /* SuggestServiceImplementation.m in Sources */,
-				63BB9A271DB4BA7300C2F2B9 /* EventObjectIndexer.m in Sources */,
-				6321842B1D9D33EF001BB7A7 /* _TagPlainObject.m in Sources */,
-				63BB9A361DB4BB6B00C2F2B9 /* SpeakerObjectTransformer.m in Sources */,
-				63BB9A351DB4BB5F00C2F2B9 /* SpeakerObjectIndexer.m in Sources */,
-				637382821DD5B2BB004246EC /* EventListProcessor.m in Sources */,
-				63BB9A121DB285F200C2F2B9 /* YouTubeIdentifierDeriviator.m in Sources */,
-				632184351D9D3579001BB7A7 /* _SocialNetworkAccountPlainObject.m in Sources */,
-				63BB9A281DB4BA8000C2F2B9 /* EventObjectTransformer.m in Sources */,
-				667E96971E0443F700EC9F20 /* LectureMaterialDownloadingManager.m in Sources */,
-				63BB9A311DB4BB1B00C2F2B9 /* LectureObjectIndexer.m in Sources */,
-				63BB9A331DB4BB4600C2F2B9 /* ObjectIndexerBase.m in Sources */,
-				636E26E11D8FE7C9001ABB92 /* _MetaEventModelObject.m in Sources */,
-				632184271D9D32C6001BB7A7 /* SpeakerPlainObject.m in Sources */,
-				63BB9A191DB4B45400C2F2B9 /* LaunchSystemAssembly.m in Sources */,
-				636E26CC1D8FE0AB001ABB92 /* EventListTableViewCellObject.m in Sources */,
-				661B40A51DF17CCC002DA46C /* SpotlightContinuationAppDelegate.m in Sources */,
-				663740B41E0A9B3200A3FCF8 /* SpotlightImageModel.m in Sources */,
-				636E26E61D8FE807001ABB92 /* SpeakerServiceImplementation.m in Sources */,
-				6373829D1DD5E12F004246EC /* MessagesPresenter.m in Sources */,
-				636E26F11D8FEF29001ABB92 /* NSManagedObjectID+LJStringConversion.m in Sources */,
-				9FFA8A2D1DF32B4700FB3C2E /* ApplicationConstants.m in Sources */,
-				63770CB61DD61D6F0039AB0D /* MessageExtensionAssembly.m in Sources */,
-				6321841D1D9BFD22001BB7A7 /* Conference.xcdatamodeld in Sources */,
-				636E26E91D8FE82D001ABB92 /* TagServiceImplementation.m in Sources */,
-				636E26DB1D8FE76E001ABB92 /* EventStoreService.m in Sources */,
-				6428BB1B1F9F3E9C00163972 /* StringFormatterImplementation.m in Sources */,
-				636E26D21D8FE0F4001ABB92 /* ROSPonsomizerImplementation.m in Sources */,
-				63BB9A2C1DB4BAB300C2F2B9 /* IndexerMonitorOperationQueueFactory.m in Sources */,
-				636E26EA1D8FE837001ABB92 /* TagServicePredicateBuilder.m in Sources */,
-				63A9D5C51DB759A600169E2E /* EventViewController.m in Sources */,
-				630E25FB1DBFA2920043C20E /* EventPresenter.m in Sources */,
-				63BB9A251DB4BA5400C2F2B9 /* ContextStorageImplementation.m in Sources */,
-				636E26EC1D8FE859001ABB92 /* _SpeakerModelObject.m in Sources */,
-				636E26D01D8FE0DC001ABB92 /* ModuleAssemblyBase.m in Sources */,
-				63BB9A211DB4B4D800C2F2B9 /* SpotlightLaunchHandler.m in Sources */,
-				636E26D61D8FE706001ABB92 /* ServiceComponentsAssembly.m in Sources */,
-				632184291D9D3368001BB7A7 /* TagModelObject.m in Sources */,
-				63BB9A231DB4B4F900C2F2B9 /* QuickActionConstants.m in Sources */,
-				638918D01DC333B6009B34AF /* MessagesAppDelegate.m in Sources */,
-				636E26CB1D8FE09C001ABB92 /* EventListRouter.m in Sources */,
-				632184331D9D355F001BB7A7 /* _SocialNetworkAccountModelObject.m in Sources */,
-				636E26EB1D8FE847001ABB92 /* _LectureModelObject.m in Sources */,
-				6321842C1D9D342B001BB7A7 /* _MetaEventPlainObject.m in Sources */,
-				637382A01DD5EA17004246EC /* MessagesInteractor.m in Sources */,
-				63BB9A2B1DB4BAA800C2F2B9 /* IndexTransaction.m in Sources */,
-				022E34531E48943100B9B9BF /* GeneralFeedbackGeneratorImplementation.m in Sources */,
-				636E26EE1D8FE8AD001ABB92 /* EventPlainObject.m in Sources */,
-				636E26C81D8FE076001ABB92 /* EventListDataDisplayManager.m in Sources */,
-				636E26D91D8FE74D001ABB92 /* EventListQuery.m in Sources */,
-				63BB9A1D1DB4B49500C2F2B9 /* QuickActionLaunchHandler.m in Sources */,
-				631060221DC8984F006870EB /* MailComposeControllerFactoryImplementation.m in Sources */,
-				63BB9A2A1DB4BA9A00C2F2B9 /* IndexerMonitor.m in Sources */,
-				63BB9A0F1DB285C900C2F2B9 /* EventTypeDeterminator.m in Sources */,
-				63BB9A1B1DB4B47C00C2F2B9 /* LectureLaunchRouter.m in Sources */,
-				63BB9A291DB4BA8D00C2F2B9 /* FetchedResultsControllerChangeProvider.m in Sources */,
-				632184281D9D32CD001BB7A7 /* _SpeakerPlainObject.m in Sources */,
-				636E26DA1D8FE760001ABB92 /* EventModelObject.m in Sources */,
-				63BB9A2F1DB4BADA00C2F2B9 /* IndexTransactionBatch.m in Sources */,
-				636E26C91D8FE082001ABB92 /* EventListInteractor.m in Sources */,
-				636E26E51D8FE7FB001ABB92 /* RamblerLocationServiceImplementation.m in Sources */,
-				636E26DF1D8FE7A2001ABB92 /* _LastModifiedModelObject.m in Sources */,
-				636E26D11D8FE0E9001ABB92 /* PonsomizerAssembly.m in Sources */,
-				632184231D9D2F65001BB7A7 /* _LecturePlainObject.m in Sources */,
-				630E25FA1DBFA2860043C20E /* EventInteractor.m in Sources */,
-				63BB9A1E1DB4B4A200C2F2B9 /* QuickActionUserActivityFactory.m in Sources */,
-				6321842D1D9D3430001BB7A7 /* MetaEventPlainObject.m in Sources */,
-				63BB9A1A1DB4B46300C2F2B9 /* EventLaunchRouter.m in Sources */,
-				63BB9A2E1DB4BACA00C2F2B9 /* IndexState.m in Sources */,
-				637382991DD5D9C0004246EC /* MessagesRouter.m in Sources */,
-				632184251D9D31BF001BB7A7 /* _LectureMaterialModelObject.m in Sources */,
-				636E26C71D8FE069001ABB92 /* EventListCellObjectBuilder.m in Sources */,
-				636E26CA1D8FE091001ABB92 /* EventListPresenter.m in Sources */,
-				632184211D9D2F2B001BB7A7 /* _LectureMaterialPlainObject.m in Sources */,
-				63770CB91DD61E100039AB0D /* RamblerExtensionTyphoonActivator.m in Sources */,
-				63BB9A221DB4B4E500C2F2B9 /* TabLaunchRouter.m in Sources */,
-				6321842F1D9D34D6001BB7A7 /* _TechModelObject.m in Sources */,
-				632184261D9D3268001BB7A7 /* LectureMaterialPlainObject.m in Sources */,
-				63BB9A1C1DB4B48800C2F2B9 /* QuickActionAppDelegate.m in Sources */,
-				636E26DC1D8FE77D001ABB92 /* LectureServiceImplementation.m in Sources */,
-				63BB9A111DB285E300C2F2B9 /* VideoThumbnailGenerator.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9F1F37E01BBBB80D00C7797D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -10255,11 +9868,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		63BDBBCF1D87E3DE006E8A15 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 63BDBBC01D87E3DE006E8A15 /* RamblerMessageExtension */;
-			targetProxy = 63BDBBCE1D87E3DE006E8A15 /* PBXContainerItemProxy */;
-		};
 		9F1F38021BBBB80D00C7797D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9F1F37E31BBBB80D00C7797D /* Conferences */;
@@ -10348,79 +9956,6 @@
 			};
 			name = Nightly;
 		};
-		63BDBBD11D87E3DE006E8A15 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61435C41E57EED0504F7C502 /* Pods-RamblerMessageExtension.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_ENTITLEMENTS = RamblerMessageExtension/RamblerMessageExtension.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = RamblerMessageExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.ramblerco.rambler.it.extension-imessage";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s";
-			};
-			name = Debug;
-		};
-		63BDBBD21D87E3DE006E8A15 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23EE5826624410C24CDC2BA5 /* Pods-RamblerMessageExtension.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_ENTITLEMENTS = RamblerMessageExtension/RamblerMessageExtension.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = RamblerMessageExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.ramblerco.rambler.it.extension-imessage";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s";
-			};
-			name = Release;
-		};
-		63BDBBD31D87E3DE006E8A15 /* Nightly */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44C28AC5C8513A913FE8B749 /* Pods-RamblerMessageExtension.nightly.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_ENTITLEMENTS = RamblerMessageExtension/RamblerMessageExtension.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = RamblerMessageExtension/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.ramblerco.rambler.it.extension-imessage";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				VALID_ARCHS = "arm64 armv7 armv7s";
-			};
-			name = Nightly;
-		};
 		892D07FC1BED037200825704 /* Nightly */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -10468,11 +10003,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Conferences/Conferences.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 33;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8VF8D8GDRV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -10508,7 +10043,7 @@
 				INFOPLIST_FILE = "conferences/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.ramblerco.rambler.it;
+				PRODUCT_BUNDLE_IDENTIFIER = fanrong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -10520,7 +10055,7 @@
 			baseConfigurationReference = 9AA70B1576B0B702AF66FB4E /* Pods-Conferences-ConferencesTests.nightly.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = UM246WFXVS;
+				DEVELOPMENT_TEAM = 8VF8D8GDRV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -10627,12 +10162,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Conferences/Conferences.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 33;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8VF8D8GDRV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -10668,7 +10203,7 @@
 				INFOPLIST_FILE = "Conferences/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.ramblerco.rambler.it;
+				PRODUCT_BUNDLE_IDENTIFIER = fanrong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -10682,11 +10217,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Conferences/Conferences.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 33;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8VF8D8GDRV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -10722,7 +10257,7 @@
 				INFOPLIST_FILE = "Conferences/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.ramblerco.rambler.it;
+				PRODUCT_BUNDLE_IDENTIFIER = fanrong;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -10735,7 +10270,7 @@
 			baseConfigurationReference = 2A1B7FADAB8BA2EA1E9B450D /* Pods-Conferences-ConferencesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = UM246WFXVS;
+				DEVELOPMENT_TEAM = 8VF8D8GDRV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -10769,7 +10304,7 @@
 			baseConfigurationReference = 1FC5571A228743BA28853AEA /* Pods-Conferences-ConferencesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = UM246WFXVS;
+				DEVELOPMENT_TEAM = 8VF8D8GDRV;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -10807,16 +10342,6 @@
 				2B750D111D362C1B00EACE98 /* Debug */,
 				2B750D121D362C1B00EACE98 /* Release */,
 				2B750D131D362C1B00EACE98 /* Nightly */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		63BDBBD41D87E3DE006E8A15 /* Build configuration list for PBXNativeTarget "RamblerMessageExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63BDBBD11D87E3DE006E8A15 /* Debug */,
-				63BDBBD21D87E3DE006E8A15 /* Release */,
-				63BDBBD31D87E3DE006E8A15 /* Nightly */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
